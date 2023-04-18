@@ -1,0 +1,235 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.top_bar {
+	height: 64px;
+	position: relative;
+	z-index: 9999;
+}
+*{
+	bos-sizing: inherit;
+}
+div{
+	display:block;
+}
+.top_bar nav{
+	position: fixed;
+}
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+	height: 64px;
+	line-height: 64px;
+}
+nav {
+	color: #fff;
+	background-color: red;
+	width: 100%;
+}
+.nav_bar_red.al {
+	background-color: red !important;
+}
+nav .nav_{
+	position: relative;
+	height: 100%;
+}
+.nav_{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+nav .project_name{
+	position: absolute;
+	color: #fff;
+	display: inline-block;
+	font-size: 2.1rem;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	background-color: transparent;
+}
+ul:not(.browser-default) {
+	padding-left: 0;
+	list-style-type: none;
+}
+.right{
+	float: right !important;
+}
+nav u1{
+	margin: 0;
+}
+ul{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+u1:not(.browser-default)> li{
+	list-style-type: none;
+}
+nav ul li{
+	transition: background-color .3s;
+	float: left;
+	padding: 0;
+}
+li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+nav ul a{
+	transition: background-color .3s;
+	font-size: 2rem;
+	color: #fff;
+	display: block;
+	padding: 0 15px;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	background-color: transparent;
+}
+.black.l1{
+	background-color: #000 !important;
+}
+.app{
+	padding: 40px;
+}
+.card{
+	position: relative;
+	margin: 0.5rem 0 1rem 0;
+	background-color: white;
+	transition: box-shadow .25s, -webkit-box-shadow .25s;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.card .c-content{
+	padding: 24px;
+	border-radius: 0 0 2px 2px;
+}
+h3{
+	font-size: 2.92rem;
+	line-height: 110%;
+	margin: 1.46rem 0 1.168rem 0;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 400;
+}
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+	box-sizing: content-box;
+	unicode-bidi: isolate;
+	margin-block-start: 0.5rem;
+	margin-block-end: 0.5rem;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+	overflow: hidden;
+}
+.card .c-content p{
+	margin: 0;
+	color: inherit;
+}
+p{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+.row{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.row .col.l2{
+	width: 25%;
+	margin-left auto;
+	left: auto;
+	right: auto;
+}
+.row .col {
+	float: left;
+	box-sizing: border-box;
+	padding: 0 0.75rem;
+	min-height: 1px;
+}
+.card .image{
+	position: relative;
+}
+.card .c-content .card-title{
+	display: block;
+	line-height: 32px;
+	margin-bottom: 8px;
+}
+.card .card-title{
+	font-size: 24px;
+	font-weight: 300;
+}
+.card .image img{
+	display: block;
+	border-radius: 2px 2px 0 0;
+	position: relative;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+img{
+	border: 0;
+	overflow-clip-margin: content-box;
+	overflow: clip;
+}
+.card .image .card-title{
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	max-width: 100%;
+	padding: 24px;
+}
+.card .card-title{
+	font-size: 24px;
+	font-weight: 300;
+}
+.name{
+	background-color: black;
+}
+.card .c-content{
+	padding: 24px;
+	border-radius: 0 0 2px 2px;
+}
+.card .c-content .card-title{
+	display: block;
+	line-height: 32px;
+	margin-bottom: 8px;
+}
+.card .c-content p{
+	margin: 0;
+	color: inherit;
+}
+.section {
+	padding-top: 1rem;
+	padding-bottom 1rem;
+}
+.center-align{
+	text-align: center;
+}
+.scrolling-wrapper{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
