@@ -9,7 +9,7 @@ body{
 	z-index: 9999;
 }
 *{
-	bos-sizing: inherit;
+	box-sizing: inherit;
 }
 div{
 	display:block;
@@ -56,7 +56,7 @@ ul:not(.browser-default) {
 .right{
 	float: right !important;
 }
-nav u1{
+nav ul{
 	margin: 0;
 }
 ul{
@@ -223,7 +223,7 @@ img{
 }
 .section {
 	padding-top: 1rem;
-	padding-bottom 1rem;
+	padding-bottom: 1rem;
 }
 .center-align{
 	text-align: center;
